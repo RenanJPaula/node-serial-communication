@@ -1,0 +1,30 @@
+{
+  "name": "node-serial-communication",
+  "version": "1.0.0",
+  "description": "Study of serial communication with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "nodemon bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RenanJPaula/node-serial-communication.git"
+  },
+  "keywords": [
+    "seria",
+    "communication"
+  ],
+  "author": "RenanJPaula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanJPaula/node-serial-communication/issues"
+  },
+  "homepage": "https://github.com/RenanJPaula/node-serial-communication",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "serialport": "^1.7.1"
+  }
+}
